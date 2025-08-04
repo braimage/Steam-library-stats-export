@@ -4,7 +4,7 @@ let result = 'Name,Time,achievements,Last run\n';
 gameCards.forEach(card => {
     // Extract game title
     const nameEl = card.querySelector('a._22awlPiAoaZjQMqxJhp-KP');
-    const name = nameEl ? `"${nameEl.textContent.trim()}"` : '"Без названия"';
+    const name = nameEl ? `"${nameEl.textContent.trim()}"` : '"Untitled"';
 
     // Extract playtime
     const timeEl = card.querySelector('span._26nl3MClDebGDV7duYjZVn');
