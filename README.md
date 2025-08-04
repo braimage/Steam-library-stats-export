@@ -9,8 +9,8 @@ This script extracts key information from your Steam library page — including:
 ## ✅ What it does
 
 It scrapes your Steam library overview and generates a CSV-formatted string like:
-"Название","Время","Достижения","Последний запуск"
-"The Binding of Isaac: Rebirth","1 293,4 ч.","595/640","21 июл."
+"Name","Time","Achievements","Last run"
+"The Binding of Isaac: Rebirth","1 293,4 h.","595/640","21 jul."
 
 
 ## 📦 How to use
