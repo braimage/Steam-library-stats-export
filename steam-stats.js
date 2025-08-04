@@ -1,5 +1,5 @@
 const gameCards = document.querySelectorAll('div._2-pQFn1G7dZ7667rrakcU3');
-let result = 'Название,Время,Достижения,Последний запуск\n';
+let result = 'Name,Time,achievements,Last run\n';
 
 gameCards.forEach(card => {
     // Extract game title
